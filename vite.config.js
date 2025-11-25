@@ -7,7 +7,7 @@ export default defineConfig({
     port: 5173,
     proxy: {
       "/api": {
-        target: "http://localhost:5173",
+        target: "https://nepalithali-class11-ojt-backend-0ud5.onrender.com",
         changeOrigin: true,
       },
     },
