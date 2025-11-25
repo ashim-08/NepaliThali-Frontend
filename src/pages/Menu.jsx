@@ -33,7 +33,7 @@ const Menu = () => {
   };
 
   return (
-    <div className="min-h-screen bg-white py-16 px-6 ">
+    <div className="min-h-screen bg-white py-16 px-6">
       <h2
         id="menu-heading"
         className="text-center text-4xl font-extrabold text-gray-900 mb-10"

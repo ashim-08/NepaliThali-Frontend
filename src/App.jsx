@@ -23,6 +23,7 @@ import ProtectedRoute from "./components/ProtectedRoute.jsx";
 
 function App() {
   return (
+    <div className=" mt-20">
     <Router>
       <AuthProvider>
         <CartProvider>
@@ -87,6 +88,7 @@ function App() {
         </CartProvider>
       </AuthProvider>
     </Router>
+    </div>
   );
 }
 
